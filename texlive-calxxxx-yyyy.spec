@@ -1,3 +1,9 @@
+# revision 21265
+# category Package
+# catalog-ctan /macros/latex/contrib/calxxxx-yyyy
+# catalog-date 2011-02-01 17:00:57 +0100
+# catalog-license lppl1.3
+# catalog-version 1.0c
 Name:		texlive-calxxxx-yyyy
 Version:	1.0c
 Release:	1
@@ -45,6 +51,7 @@ speaking world.
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DE.pdf
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DK.pdf
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_EN.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ speaking world.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
