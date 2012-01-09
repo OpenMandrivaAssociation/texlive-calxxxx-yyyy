@@ -1,12 +1,12 @@
-# revision 21265
+# revision 25001
 # category Package
 # catalog-ctan /macros/latex/contrib/calxxxx-yyyy
-# catalog-date 2011-02-01 17:00:57 +0100
+# catalog-date 2012-01-03 11:34:51 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0c
+# catalog-version 1.0d
 Name:		texlive-calxxxx-yyyy
-Version:	1.0c
-Release:	2
+Version:	1.0d
+Release:	1
 Summary:	Print a calendar for a group of years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calxxxx-yyyy
@@ -39,9 +39,9 @@ speaking world.
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README.pdf
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README.tex
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DE.pdf
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_DK.pdf
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/calxxxx-yyyy_EN.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_DE.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_DK.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_EN.pdf
 
 #-----------------------------------------------------------------------
 %prep
