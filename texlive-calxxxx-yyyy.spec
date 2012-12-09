@@ -52,3 +52,22 @@ speaking world.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0d-1
++ Revision: 758834
+- texlive-calxxxx-yyyy
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-2
++ Revision: 749967
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-1
++ Revision: 717999
+- texlive-calxxxx-yyyy
+- texlive-calxxxx-yyyy
+- texlive-calxxxx-yyyy
+- texlive-calxxxx-yyyy
+- texlive-calxxxx-yyyy
+
