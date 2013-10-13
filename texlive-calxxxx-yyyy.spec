@@ -1,11 +1,11 @@
-# revision 25001
+# revision 28675
 # category Package
 # catalog-ctan /macros/latex/contrib/calxxxx-yyyy
-# catalog-date 2012-01-03 11:34:51 +0100
+# catalog-date 2012-12-31 22:53:16 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0d
+# catalog-version 1.0e
 Name:		texlive-calxxxx-yyyy
-Version:	1.0d
+Version:	1.0e
 Release:	1
 Summary:	Print a calendar for a group of years
 Group:		Publishing
@@ -39,9 +39,9 @@ speaking world.
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README.pdf
 %doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/README.tex
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_DE.pdf
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_DK.pdf
-%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2012-2029_EN.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2013-2030_DE.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2013-2030_DK.pdf
+%doc %{_texmfdistdir}/doc/latex/calxxxx-yyyy/cal2013-2030_EN.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,22 +52,3 @@ speaking world.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0d-1
-+ Revision: 758834
-- texlive-calxxxx-yyyy
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-2
-+ Revision: 749967
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-1
-+ Revision: 717999
-- texlive-calxxxx-yyyy
-- texlive-calxxxx-yyyy
-- texlive-calxxxx-yyyy
-- texlive-calxxxx-yyyy
-- texlive-calxxxx-yyyy
-
