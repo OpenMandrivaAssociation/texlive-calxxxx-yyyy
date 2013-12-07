@@ -6,7 +6,7 @@
 # catalog-version 1.0e
 Name:		texlive-calxxxx-yyyy
 Version:	1.0e
-Release:	4
+Release:	5
 Summary:	Print a calendar for a group of years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calxxxx-yyyy
