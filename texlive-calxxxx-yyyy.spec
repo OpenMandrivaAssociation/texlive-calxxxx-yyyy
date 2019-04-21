@@ -1,6 +1,6 @@
 Name:		texlive-calxxxx-yyyy
-Version:	20.18a
-Release:	2
+Version:	20.19a
+Release:	1
 Summary:	Print a calendar for a group of years
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calxxxx-yyyy
