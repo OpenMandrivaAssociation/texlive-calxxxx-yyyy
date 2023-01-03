@@ -1,5 +1,5 @@
 Name:		texlive-calxxxx-yyyy
-Version:	61463
+Version:	65426
 Release:	1
 Summary:	Print a calendar for a group of years
 Group:		Publishing
