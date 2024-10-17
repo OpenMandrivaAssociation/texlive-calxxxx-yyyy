@@ -3,7 +3,7 @@ Version:	69266
 Release:	1
 Summary:	Print a calendar for a group of years
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calxxxx-yyyy
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/calxxxx-yyyy
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calxxxx-yyyy.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calxxxx-yyyy.doc.r%{version}.tar.xz
